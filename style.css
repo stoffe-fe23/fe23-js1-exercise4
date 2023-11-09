@@ -14,3 +14,32 @@
     font-size: 2.5rem;
   }
   
+  .monthlist {
+    padding: 1rem;
+    border-bottom: 1px solid red;
+  }
+
+
+  .darkbox, .lightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px black;
+    padding: 4rem;
+
+  }
+
+  .darkbox p, .lightbox p  {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .darkbox {
+    background-color: black;
+    color: red;
+  }
+
+  .lightbox {
+    background-color: white;
+    color: blue;
+  }
